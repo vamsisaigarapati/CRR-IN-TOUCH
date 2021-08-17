@@ -68,6 +68,7 @@ class _QuizDetailsEntryScreenState extends State<QuizDetailsEntryScreen> {
   }
 
   void _presentDatePicker() {
+    print("checking merge possibility")
     showDatePicker(
       context: context,
       initialDate: DateTime.now(),
