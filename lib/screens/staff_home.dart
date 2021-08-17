@@ -220,7 +220,7 @@ class _QuizDetailsEntryScreenState extends State<QuizDetailsEntryScreen> {
                     //     }
                     //     if (double.parse(value) <= 0 ||
                     //         double.parse(value) >= 5) {
-                    //       return 'Please enter a number less than or equal to 4.';
+                    //       return 'Please enter a number less than or equal to 6.';
                     //     }
                     //     return null;
                     //   },
