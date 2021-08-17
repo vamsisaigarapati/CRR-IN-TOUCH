@@ -18,6 +18,7 @@ class _StaffHomeState extends State<StaffHome> {
 
   Future<void> _refreshFeed(BuildContext context) async {
     await Provider.of<FeedProvider>(context,listen: false).fetchNewsFeed().then((_) {
+      print("hellllo Namasthe");
       _totalFeed = Provider.of<FeedProvider>(context,listen: false).items;
     });
   }
